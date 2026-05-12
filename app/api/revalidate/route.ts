@@ -30,12 +30,12 @@ export async function POST(req: NextRequest) {
     // Revalidate the type-level tag
     const tags = TYPE_TAG_MAP[_type] ?? [_type]
     for (const tag of tags) {
-      revalidateTag(tag)
+      revalidateTag(tag, 'everything')
     }
 
     // Also revalidate the slug-specific tag if present
     if (slug?.current) {
-      revalidateTag(`${_type}-${slug.current}`)
+      revalidateTag(`${_type}-${slug.current}`, 'everything')
     }
 
     return NextResponse.json({
