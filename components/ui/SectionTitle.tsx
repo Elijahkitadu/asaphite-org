@@ -13,6 +13,7 @@ interface SectionTitleProps {
   className?: string
   titleClassName?: string
   maxWidth?:  string
+  id?:        string
 }
 
 export default function SectionTitle({
@@ -24,6 +25,7 @@ export default function SectionTitle({
   className,
   titleClassName,
   maxWidth  = 'max-w-2xl',
+  id,
 }: SectionTitleProps) {
   const alignClass = {
     left:   'items-start text-left',
@@ -57,6 +59,7 @@ export default function SectionTitle({
 
       <motion.h2
         variants={fadeInUp}
+        id={id}
         className={cn(
           'font-heading font-bold leading-tight tracking-tight',
           'text-3xl sm:text-4xl lg:text-5xl',
