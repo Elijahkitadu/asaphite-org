@@ -8,7 +8,7 @@ export const SITE_DESCRIPTION =
   'Through storytelling, film, and advocacy, we connect underserved communities with people who can create lasting change.'
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://asaphitesfoundation.org'
 export const SITE_EMAIL = 'info@asaphitesfoundation.org'
-export const SITE_PHONE = '+2 (557) 670-69313'
+export const SITE_PHONE = '+255-7670-69313'
 export const SITE_WHATSAPP = '+255767069313'
 export const SITE_LOCATION = 'Tanzania Operations'
 
