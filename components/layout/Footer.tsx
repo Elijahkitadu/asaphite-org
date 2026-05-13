@@ -194,7 +194,7 @@ export default function Footer() {
             © {year} {SITE_NAME}. All rights reserved.
           </p>
           <p className="text-xs text-white/25 flex items-center gap-1">
-            Made with <Heart size={10} className="fill-gold-400 text-gold-400" /> for communities worldwide
+            Designed by Elia Kitadu
           </p>
         </div>
       </div>
