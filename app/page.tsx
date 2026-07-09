@@ -10,8 +10,7 @@ import CTASection from '@/components/sections/CTASection'
 
 export const metadata: Metadata = {
   title: 'The Asaphites Foundation — Visualizing Needs. Delivering Hope.',
-  description:
-    'Through storytelling, film, and advocacy, we connect underserved communities with people who can create lasting change.',
+  description: 'A storytelling foundation based in Tanzania, using film and photography to reveal community needs and connect them with people who can help.',
 }
 
 export default function HomePage() {
@@ -24,12 +23,12 @@ export default function HomePage() {
       <CampaignsSection />
       <ImpactStatsSection />
       <CTASection
-        eyebrow="Take Action"
-        title="Be the reason a community is seen."
-        subtitle="Partner with us, fund a project, or simply share a story. Every action creates a ripple of hope."
+        eyebrow="Get Involved"
+        title="We are just getting started — and we need you."
+        subtitle="Whether you give $10, share a film, or partner your church — every action helps us tell more stories."
         links={[
-          { label: 'Partner With Us', href: '/church',  variant: 'primary'  },
-          { label: 'Donate Today',    href: '/donate',  variant: 'outline'  },
+          { label: 'Support Our Work', href: '/donate', variant: 'primary' },
+          { label: 'Partner With Us',  href: '/church', variant: 'outline' },
         ]}
       />
     </SiteLayout>
