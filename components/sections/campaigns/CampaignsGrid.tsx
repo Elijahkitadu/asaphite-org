@@ -77,18 +77,6 @@ const ALL_CAMPAIGNS = [
     excerpt: 'A documentary following three women through the daily reality of water collection in Singida Region.',
     impact: 'One documentary film',
   },
-  {
-    id: 'first-film',
-    title: 'The Village That Walks for Water',
-    category: 'water', status: 'completed',
-    location: 'Dodoma, Tanzania',
-    image: UNSPLASH_IMAGES.community1,
-    raised: 450, goal: 450, currency: 'USD',
-    endDate: '2024-12-01',
-    donors: 18,
-    excerpt: 'Our first documentary — completed. This film is what started everything for us.',
-    impact: 'Film released, 500+ views',
-  },
 ]
 
 function CampaignCard({ campaign }: { campaign: typeof ALL_CAMPAIGNS[0] }) {
