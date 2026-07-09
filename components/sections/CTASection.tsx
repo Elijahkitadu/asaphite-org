@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 interface CTALink { label: string; href: string; variant?: 'primary' | 'outline'; external?: boolean }
 interface CTASectionProps { eyebrow?: string; title: string; subtitle?: string; links: CTALink[]; backgroundImage?: string; className?: string }
 
-export default function CTASection({ eyebrow, title, subtitle, links, backgroundImage = 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1600&q=80', className }: CTASectionProps) {
+export default function CTASection({ eyebrow, title, subtitle, links, backgroundImage = 'https://6a4fb165ae4883bf378c6a69.imgix.net/C7676.00_00_45_36.Still011.jpg', className }: CTASectionProps) {
   return (
     <section className={cn('relative isolate overflow-hidden py-24 sm:py-32', className)} aria-labelledby="cta-heading">
       <motion.div variants={scaleInSlow} initial="hidden" whileInView="visible" viewport={viewport} className="absolute inset-0 -z-10">

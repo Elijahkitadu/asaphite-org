@@ -68,7 +68,7 @@ const STORIES = [
     id: 'young-builders',
     title: 'The Young Builders of Mwanza',
     category: 'community',
-    location: 'Mwanza, Tanzania',
+    location: 'Singida, Tanzania',
     readTime: 5,
     excerpt: 'A group of young people in Mwanza decided not to wait for someone else to fix their neighbourhood. This is what they built.',
     image: UNSPLASH_IMAGES.community1,
