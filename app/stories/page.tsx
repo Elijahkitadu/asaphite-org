@@ -17,7 +17,7 @@ export default function StoriesPage() {
         eyebrow="Our Stories"
         title="Every frame is a life. Every story is a door."
         subtitle="We go where cameras rarely go and tell the stories that need to be heard."
-        image={UNSPLASH_IMAGES.community2}
+        image={UNSPLASH_IMAGES.wamasai}
         imageAlt="Documentary crew with community members in Tanzania"
       />
       <StoriesGrid />

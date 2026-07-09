@@ -107,4 +107,5 @@ export const UNSPLASH_IMAGES = {
   blog3:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.30.jpeg',
   about:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.36%20(23).jpeg',
   impact:        'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.45.10%20(3).jpeg',
+  wamasai:       'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.37.jpeg',
 }
