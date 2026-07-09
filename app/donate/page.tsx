@@ -6,8 +6,7 @@ import DonateTrust from '@/components/sections/donate/DonateTrust'
 
 export const metadata: Metadata = {
   title: 'Donate',
-  description:
-    'Fund clean water, education, healthcare, and community stories. Every donation directly supports a documented, verified community need.',
+  description: 'Support The Asaphites Foundation. Every dollar goes directly to filming, travel, and production of documentary stories in Tanzania.',
 }
 
 export default function DonatePage() {

@@ -7,8 +7,7 @@ import { UNSPLASH_IMAGES } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Campaigns',
-  description:
-    'Active fundraising campaigns for clean water, education, healthcare, and church restoration. Every campaign is a documented, verified community need.',
+  description: 'Active fundraising campaigns to fund documentary projects across Tanzania. Every campaign is a real community, a real story waiting to be told.',
 }
 
 export default function CampaignsPage() {
@@ -16,19 +15,19 @@ export default function CampaignsPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Active Campaigns"
-        title="Real needs. Real communities. Real impact."
-        subtitle="Every campaign begins with a documentary visit. We verify every need before we ask for a single dollar."
+        title="Help us film these stories."
+        subtitle="Every campaign begins with a community visit. We verify every need before we ask for a single dollar."
         image={UNSPLASH_IMAGES.water2}
-        imageAlt="Community water project in progress"
+        imageAlt="Community in Tanzania"
       />
       <CampaignsGrid />
       <CTASection
-        eyebrow="Can't Choose?"
-        title="Give where it's needed most."
-        subtitle="Donate to our general fund and our team will direct it to the most urgent active project."
+        eyebrow="Not Sure?"
+        title="Give where it is needed most."
+        subtitle="Donate to our general fund and we will direct it to the most urgent active project."
         links={[
           { label: 'General Donation', href: '/donate', variant: 'primary' },
-          { label: 'View Impact',      href: '/impact', variant: 'outline' },
+          { label: 'Learn More',       href: '/about',  variant: 'outline' },
         ]}
       />
     </SiteLayout>

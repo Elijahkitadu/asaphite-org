@@ -6,8 +6,7 @@ import { UNSPLASH_IMAGES } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description:
-    'Field notes, advocacy updates, and stories of hope from The Asaphites Foundation team.',
+  description: 'Field notes, updates, and reflections from The Asaphites Foundation team in Tanzania.',
 }
 
 export default function BlogPage() {
@@ -15,11 +14,11 @@ export default function BlogPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Field Notes"
-        title="Dispatches from the frontlines of hope."
+        title="Dispatches from Tanzania."
         subtitle="Our team writes from the field, the editing room, and the communities we serve."
         image={UNSPLASH_IMAGES.blog1}
-        imageAlt="Writer in the field"
-        minHeight="min-h-[50vh]"
+        imageAlt="Our team in the field"
+        minHeight="min-h-[45vh]"
       />
       <BlogGrid />
     </SiteLayout>

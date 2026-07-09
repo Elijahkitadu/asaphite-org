@@ -1,6 +1,2 @@
-export const metadata = { title: 'Sanity Studio — Asaphites Foundation' }
-
-export default function StudioLayout({ children }: { children: React.ReactNode }) {
-  // No Navbar/Footer — Studio manages its own UI
-  return <>{children}</>
-}
+export const metadata = { title: 'Sanity Studio' }
+export default function StudioLayout({ children }: { children: React.ReactNode }) { return <>{children}</> }

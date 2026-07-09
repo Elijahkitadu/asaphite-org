@@ -9,8 +9,7 @@ import { UNSPLASH_IMAGES } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Our Impact',
-  description:
-    'Transparent impact reporting from The Asaphites Foundation. Real numbers, real communities, real change — documented from field to finish.',
+  description: 'Honest impact reporting from The Asaphites Foundation. Real numbers, real communities, real stories — documented from field to finish.',
 }
 
 export default function ImpactPage() {
@@ -18,21 +17,21 @@ export default function ImpactPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Our Impact"
-        title="Every number has a name behind it."
-        subtitle="We believe radical transparency is the foundation of lasting trust. Here is what your support has built."
+        title="Small numbers. Real people."
+        subtitle="We are a startup. We are proud of every community we have visited and every story we have told."
         image={UNSPLASH_IMAGES.impact}
-        imageAlt="Community members at a completed water project"
+        imageAlt="Community in Tanzania"
       />
       <ImpactNumbers />
       <ImpactProjects />
       <ImpactTransparency />
       <CTASection
-        eyebrow="Add to the Story"
-        title="The next number is waiting to be written."
-        subtitle="Every donation adds to a story of real, documented, lasting change."
+        eyebrow="Be Part of It"
+        title="Add to the story."
+        subtitle="Every donation helps us visit one more community and tell one more story."
         links={[
-          { label: 'Donate Now',        href: '/donate',    variant: 'primary' },
-          { label: 'View Campaigns',    href: '/campaigns', variant: 'outline' },
+          { label: 'Donate Now',     href: '/donate',    variant: 'primary' },
+          { label: 'View Campaigns', href: '/campaigns', variant: 'outline' },
         ]}
       />
     </SiteLayout>

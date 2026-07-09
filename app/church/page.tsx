@@ -9,8 +9,7 @@ import { UNSPLASH_IMAGES } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Church Partnerships',
-  description:
-    'Partner with The Asaphites Foundation. Churches are the most powerful mobilization hubs in any community — join our global network and activate your congregation for lasting change.',
+  description: 'Partner with The Asaphites Foundation. Tanzanian churches are the backbone of their communities — join our network and help us find and tell the stories that matter.',
 }
 
 export default function ChurchPage() {
@@ -18,11 +17,11 @@ export default function ChurchPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Church Partnerships"
-        title="Your church is already a force for change."
-        subtitle="We give you the stories, tools, and network to activate it."
+        title="Your church already knows the stories."
+        subtitle="We have the cameras. You have the community. Let us work together."
         image={UNSPLASH_IMAGES.church1}
-        imageAlt="Church community gathering"
-        minHeight="min-h-[60vh]"
+        imageAlt="Church community in Tanzania"
+        minHeight="min-h-[55vh]"
       />
       <WhyPartner />
       <PartnershipTiers />

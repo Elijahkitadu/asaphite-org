@@ -5,8 +5,7 @@ import ContactContent from '@/components/sections/contact/ContactContent'
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description:
-    'Get in touch with The Asaphites Foundation. Whether you want to give, partner, volunteer, or simply ask a question — we would love to hear from you.',
+  description: 'Get in touch with The Asaphites Foundation in Tanzania. We read every message personally and reply within 24–48 hours.',
 }
 
 export default function ContactPage() {

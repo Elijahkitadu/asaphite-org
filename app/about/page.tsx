@@ -9,8 +9,7 @@ import CTASection from '@/components/sections/CTASection'
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description:
-    'Learn about The Asaphites Foundation — our mission, vision, values, and the story of how we began using film and advocacy to transform vulnerable communities.',
+  description: 'Learn about The Asaphites Foundation — a Tanzania-based storytelling NGO using film to reveal community needs and inspire action.',
 }
 
 export default function AboutPage() {

@@ -7,8 +7,7 @@ import { UNSPLASH_IMAGES } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Stories',
-  description:
-    'Documentary stories from communities across the world — water, education, healthcare, churches, and youth. Every story is a real person waiting to be seen.',
+  description: 'Documentary stories from communities across Tanzania — water, education, healthcare, churches, and community. Every story is a real person waiting to be seen.',
 }
 
 export default function StoriesPage() {
@@ -19,7 +18,7 @@ export default function StoriesPage() {
         title="Every frame is a life. Every story is a door."
         subtitle="We go where cameras rarely go and tell the stories that need to be heard."
         image={UNSPLASH_IMAGES.community2}
-        imageAlt="Documentary crew with community members"
+        imageAlt="Documentary crew with community members in Tanzania"
       />
       <StoriesGrid />
       <CTASection
