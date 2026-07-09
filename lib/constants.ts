@@ -102,9 +102,9 @@ export const UNSPLASH_IMAGES = {
   team3:         'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
   team4:         'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80',
   donate:        'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=1200&q=80',
-  blog1:         'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80',
-  blog2:         'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80',
-  blog3:         'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80',
+  blog1:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2019.09.49%20(1).jpeg',
+  blog2:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.36%20(28).jpeg',
+  blog3:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.30.jpeg',
   about:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.36%20(23).jpeg',
   impact:        'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.45.10%20(3).jpeg',
 }
