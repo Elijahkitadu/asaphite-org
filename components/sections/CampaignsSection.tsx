@@ -19,7 +19,7 @@ const CAMPAIGNS = [
     location: 'Singida, Tanzania',
     image: UNSPLASH_IMAGES.water1,
     raised: 420, goal: 800,
-    excerpt: 'Fund a three-day filming trip to document water access issues in four villages outside Dodoma.',
+    excerpt: 'Fund a three-day filming trip to document water access issues in four villages outside Singida.',
   },
   {
     id: 'dar-classrooms',
