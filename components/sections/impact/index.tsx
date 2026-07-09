@@ -60,7 +60,7 @@ const COMPLETED = [
   {
     title: 'A Classroom Without Walls',
     category: 'education', icon: <BookOpen size={18} />,
-    location: 'Dodoma Region, Tanzania',
+    location: 'Singida Region, Tanzania',
     raised: 380, goal: 380,
     beneficiaries: '60 students documented',
     image: UNSPLASH_IMAGES.education2,

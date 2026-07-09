@@ -14,9 +14,9 @@ import { UNSPLASH_IMAGES } from '@/lib/constants'
 const CAMPAIGNS = [
   {
     id: 'dodoma-water',
-    title: 'Document the Dodoma Water Crisis',
+    title: 'Document the Singida Water Crisis',
     category: 'water',
-    location: 'Dodoma, Tanzania',
+    location: 'Singida, Tanzania',
     image: UNSPLASH_IMAGES.water1,
     raised: 420, goal: 800,
     excerpt: 'Fund a three-day filming trip to document water access issues in four villages outside Dodoma.',
