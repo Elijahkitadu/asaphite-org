@@ -168,8 +168,24 @@ export function FoundationTimeline() {
 // ─── Leadership ───────────────────────────────────────
 
 const TEAM = [
-  { name: 'Asaph Bimila', role: 'Founder and CEO',    bio: 'Update this with your real team details.', image: UNSPLASH_IMAGES.joshua },
-  { name: 'Add Your Name', role: 'Filmmaker',  bio: 'Update this with your real team details.', image: UNSPLASH_IMAGES.angel },
+  {
+    name: 'Asaph Bimila',
+    role: 'Founder & Executive Director',
+    bio: 'Leads the organization’s vision, partnerships, and long-term impact in communities across Tanzania.',
+    image: UNSPLASH_IMAGES.joshua,
+  },
+  {
+    name: 'Asha Msuya',
+    role: 'Producer & Story Lead',
+    bio: 'Coordinates fieldwork, interviews, and documentary planning with a strong focus on community trust.',
+    image: UNSPLASH_IMAGES.angel,
+  },
+  {
+    name: 'Salum Ally',
+    role: 'Editor & Multimedia Specialist',
+    bio: 'Shapes each story into a clear, moving film that helps audiences understand the human reality behind the issue.',
+    image: UNSPLASH_IMAGES.community1,
+  },
 ]
 
 export function LeadershipSection() {
@@ -180,22 +196,36 @@ export function LeadershipSection() {
           <SectionTitle
             eyebrow="The Team"
             title="The team behind the camera"
-            subtitle="A small team with a shared passion for Tanzania and storytelling."
+            subtitle="A small team with a shared passion for Tanzania, truth, and storytelling."
             id="team-heading"
           />
+
           <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewport}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-8 w-full max-w-2xl mx-auto">
+            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 w-full max-w-6xl mx-auto">
             {TEAM.map((member, i) => (
-              <motion.div key={i} variants={fadeInUp} className="group flex flex-col items-center text-center gap-4">
-                <div className="relative w-24 h-24 rounded-full overflow-hidden ring-4 ring-gray-100 group-hover:ring-gold-400/40 transition-all duration-300">
-                  <Image src={member.image} alt={member.name} fill
-                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                    sizes="96px" />
+              <motion.div
+                key={member.name}
+                variants={fadeInUp}
+                custom={i}
+                className="group flex flex-col overflow-hidden rounded-3xl border border-gray-100 bg-gradient-to-b from-white to-gray-50 p-6 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-card-hover"
+              >
+                <div className="relative mx-auto mb-6 h-28 w-28 overflow-hidden rounded-full ring-4 ring-gray-100 transition-all duration-300 group-hover:ring-gold-400/40">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0"
+                    sizes="112px"
+                  />
                 </div>
-                <div className="flex flex-col gap-1">
-                  <h3 className="font-heading font-semibold text-navy-800 text-base">{member.name}</h3>
-                  <p className="text-gold-400 text-xs font-semibold font-heading uppercase tracking-wider">{member.role}</p>
-                  <p className="text-gray-500 text-sm leading-relaxed mt-1">{member.bio}</p>
+
+                <div className="flex flex-col items-center text-center gap-3">
+                  <div className="flex flex-col gap-1">
+                    <h3 className="font-heading font-semibold text-navy-800 text-lg">{member.name}</h3>
+                    <p className="text-gold-400 text-xs font-semibold font-heading uppercase tracking-[0.2em]">{member.role}</p>
+                  </div>
+                  <div className="h-px w-12 bg-gradient-to-r from-transparent via-gold-400/60 to-transparent" />
+                  <p className="text-gray-500 text-sm leading-relaxed">{member.bio}</p>
                 </div>
               </motion.div>
             ))}
