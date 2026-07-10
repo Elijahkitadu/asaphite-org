@@ -175,16 +175,10 @@ const TEAM = [
     image: UNSPLASH_IMAGES.joshua,
   },
   {
-    name: 'Asha Msuya',
-    role: 'Producer & Story Lead',
+    name: 'Angela Mwakamela',
+    role: 'Filmmaker & Community Liaison',
     bio: 'Coordinates fieldwork, interviews, and documentary planning with a strong focus on community trust.',
     image: UNSPLASH_IMAGES.angel,
-  },
-  {
-    name: 'Salum Ally',
-    role: 'Editor & Multimedia Specialist',
-    bio: 'Shapes each story into a clear, moving film that helps audiences understand the human reality behind the issue.',
-    image: UNSPLASH_IMAGES.community1,
   },
 ]
 
