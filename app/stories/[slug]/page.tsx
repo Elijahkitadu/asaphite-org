@@ -6,8 +6,17 @@ import { SITE_EMAIL } from '@/lib/constants'
 
 export const metadata: Metadata = { title: 'Story Coming Soon' }
 
-export default function StoryPage({ params }: { params: { slug: string } }) {
-  const title = params.slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+export default async function StoryPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
+  const title = slug
+    .split('-')
+    .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ')
+
   return (
     <SiteLayout>
       <div className="min-h-screen bg-background flex items-center justify-center pt-24 pb-20">
