@@ -38,6 +38,7 @@ export default function HeroSection() {
 
           <motion.div variants={heroCTA} className="flex flex-wrap items-center gap-4 pt-2">
             <Button href="/stories" variant="primary" size="lg">Watch Our Stories</Button>
+            <Button href="/contact" variant="outline" size="lg" iconRight={<ArrowRight size={16} />}>Get in Touch</Button>
             <Button href="/about" variant="outline" size="lg" iconRight={<ArrowRight size={16} />}>Who We Are</Button>
           </motion.div>
 

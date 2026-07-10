@@ -4,7 +4,7 @@ import { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, ChevronDown, Heart } from 'lucide-react'
+import { Menu, X, Heart } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { NAV_ITEMS, SITE_NAME } from '@/lib/constants'
 import Button from '@/components/ui/Button'
@@ -46,7 +46,7 @@ function MobileMenu({ open, onClose, pathname }: { open: boolean; onClose: () =>
               ))}
             </nav>
             <div className="p-6 border-t border-white/10">
-              <Button href="/donate" variant="primary" size="lg" fullWidth>Donate Now</Button>
+              <Button href="/contact" variant="primary" size="lg" fullWidth>Get in Touch</Button>
             </div>
           </motion.div>
         </>
@@ -96,7 +96,7 @@ function NavbarInner() {
               ))}
             </nav>
             <div className="hidden lg:flex items-center gap-3">
-              <Button href="/donate" variant="primary" size="sm" iconRight={<Heart size={14} className="fill-navy-800" />}>Donate</Button>
+              <Button href="/contact" variant="primary" size="sm">Get in Touch</Button>
             </div>
             <button onClick={() => setMobileOpen(true)} className={cn('lg:hidden p-2 rounded-lg transition-colors', light ? 'text-white/80 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:bg-navy-800/8')} aria-label="Open menu" aria-expanded={mobileOpen}>
               <Menu size={22} />

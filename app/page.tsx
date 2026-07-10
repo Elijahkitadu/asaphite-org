@@ -4,7 +4,6 @@ import HeroSection from '@/components/sections/HeroSection'
 import WhoWeAreSection from '@/components/sections/WhoWeAreSection'
 import FocusAreasSection from '@/components/sections/FocusAreasSection'
 import FeaturedStorySection from '@/components/sections/FeaturedStorySection'
-import CampaignsSection from '@/components/sections/CampaignsSection'
 import ImpactStatsSection from '@/components/sections/ImpactStatsSection'
 import CTASection from '@/components/sections/CTASection'
 
@@ -20,15 +19,14 @@ export default function HomePage() {
       <WhoWeAreSection />
       <FocusAreasSection />
       <FeaturedStorySection />
-      <CampaignsSection />
       <ImpactStatsSection />
       <CTASection
         eyebrow="Get Involved"
-        title="We are just getting started — and we need you."
-        subtitle="Whether you give $10, share a film, or partner your church — every action helps us tell more stories."
+        title="Want to support our work?"
+        subtitle="We are currently in the registration process. If you would like to support our activities, partner with us, or simply learn more — we would love to hear from you."
         links={[
-          { label: 'Support Our Work', href: '/donate', variant: 'primary' },
-          { label: 'Partner With Us',  href: '/church', variant: 'outline' },
+          { label: 'Get in Touch',    href: '/contact', variant: 'primary' },
+          { label: 'Partner With Us', href: '/church',  variant: 'outline' },
         ]}
       />
     </SiteLayout>
