@@ -59,7 +59,7 @@ export const CORE_VALUES = [
 
 export const FOUNDATION_TIMELINE = [
   { year: '2023', title: 'The Idea',       description: 'A small group of Tanzanian filmmakers and community workers began asking: what if storytelling could be the bridge between need and help?' },
-  { year: '2024', title: 'First Stories',  description: 'We produced our first three short documentary films, visiting communities in Dar es Salaam and Dodoma. Small start, real impact.' },
+  { year: '2024', title: 'First Stories',  description: 'We produced our first three short documentary films, visiting communities in Singida and Arusha. Small start, real impact.' },
   { year: '2024', title: 'First Partners', description: 'Three local churches joined us as community partners, helping us identify real needs and connect with families willing to share their stories.' },
   { year: '2025', title: 'Growing',        description: 'We are now building our donor base, expanding our church network, and preparing for our first fundraising campaign. This is the beginning.' },
 ]

@@ -105,7 +105,7 @@ export function PartnershipTiers() {
 const CHURCH_STORIES = [
   {
     church: 'Kanisa la Imani',
-    location: 'Dodoma, Tanzania',
+    location: 'Singida, Tanzania',
     quote: 'When they showed our community\'s story at our Sunday service, people who had never spoken about these issues before started opening up. It changed something.',
     person: 'Pastor Elias',
     role: 'Senior Pastor',
@@ -114,7 +114,7 @@ const CHURCH_STORIES = [
   },
   {
     church: 'Kristo Mwokozi Church',
-    location: 'Dar es Salaam, Tanzania',
+    location: 'Arusha, Tanzania',
     quote: 'We connected the foundation with three families in our neighbourhood who needed their story told. That is all they asked. We could do that.',
     person: 'Sister Grace',
     role: 'Community Coordinator',

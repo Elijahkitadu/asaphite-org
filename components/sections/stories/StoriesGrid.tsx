@@ -46,7 +46,7 @@ const STORIES = [
     id: 'church-that-stays',
     title: 'The Church That Stays',
     category: 'churches',
-    location: 'Dar es Salaam, Tanzania',
+    location: 'Arusha, Tanzania',
     readTime: 4,
     excerpt: 'In a neighbourhood most people have given up on, one small church has quietly been feeding, teaching, and sheltering its community for years.',
     image: UNSPLASH_IMAGES.church1,

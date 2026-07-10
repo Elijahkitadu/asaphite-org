@@ -51,7 +51,7 @@ const COMPLETED = [
   {
     title: 'The Village That Walks for Water',
     category: 'water', icon: <Droplets size={18} />,
-    location: 'Dodoma, Tanzania',
+    location: 'Singida, Tanzania',
     raised: 450, goal: 450,
     beneficiaries: '1 village, ~200 people',
     image: UNSPLASH_IMAGES.water1,
@@ -69,7 +69,7 @@ const COMPLETED = [
   {
     title: 'The Church That Stays',
     category: 'churches', icon: <Building2 size={18} />,
-    location: 'Dar es Salaam, Tanzania',
+    location: 'Arusha, Tanzania',
     raised: 200, goal: 200,
     beneficiaries: 'One church community profiled',
     image: UNSPLASH_IMAGES.church1,

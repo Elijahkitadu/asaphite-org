@@ -23,12 +23,12 @@ const CAMPAIGNS = [
   },
   {
     id: 'dar-classrooms',
-    title: 'Dar es Salaam School Stories',
+    title: 'Singida School Stories',
     category: 'education',
-    location: 'Dar es Salaam, Tanzania',
+    location: 'Singida, Tanzania',
     image: UNSPLASH_IMAGES.education1,
     raised: 150, goal: 600,
-    excerpt: 'A short documentary series on the state of public primary schools in three Dar es Salaam neighbourhoods.',
+    excerpt: 'A short documentary series on the state of public primary schools in three Singida neighbourhoods.',
   },
   {
     id: 'church-voices',

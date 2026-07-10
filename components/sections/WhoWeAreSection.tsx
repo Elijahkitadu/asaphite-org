@@ -30,7 +30,7 @@ export default function WhoWeAreSection() {
               id="who-we-are-heading"
             />
             <motion.p variants={fadeInUp} className="text-gray-500 text-lg leading-relaxed">
-              The Asaphites Foundation is a startup NGO based in Dar es Salaam, Tanzania. We are filmmakers, photographers, and community workers who believe that a well-told story can change things.
+              The Asaphites Foundation is a startup NGO based in Tanzania. We are filmmakers, photographers, and community workers who believe that a well-told story can change things.
             </motion.p>
             <motion.p variants={fadeInUp} className="text-gray-500 leading-relaxed">
               We are not a large organisation. We do not have decades of experience. What we have is a deep love for Tanzania, a camera, and a conviction that the communities around us deserve to be seen and heard by the world.
