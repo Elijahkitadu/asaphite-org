@@ -49,11 +49,11 @@ export default function FeaturedStorySection() {
               The Village That Walks for Water
             </motion.h2>
             <motion.p variants={fadeInUp} className="text-white/65 leading-relaxed text-sm">
-              In a village outside Dodoma, families walk two hours every morning for water that is not clean. This is one of the first stories we told — and it is why we exist.
+              In a village outside Singida, families walk two hours every morning for water that is not clean. This is one of the first stories we told — and it is why we exist.
             </motion.p>
             <motion.blockquote variants={fadeInUp} className="border-l-2 border-gold-400 pl-4">
               <p className="text-white/75 text-sm italic">"Nobody had ever come to film us before. We did not think anyone cared."</p>
-              <footer className="text-gold-400 text-xs font-semibold mt-1 font-heading">— Village elder, Dodoma</footer>
+              <footer className="text-gold-400 text-xs font-semibold mt-1 font-heading">— Village elder, Singida</footer>
             </motion.blockquote>
             <motion.div variants={fadeInUp} className="flex flex-wrap gap-3">
               <Button href="/stories" variant="primary" size="md" icon={<Play size={14} className="fill-navy-800" />}>Watch Story</Button>
