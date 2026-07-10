@@ -15,8 +15,8 @@ export function ContactHero() {
     <PageHero
       eyebrow="Contact Us"
       title="We would love to hear from you."
-      subtitle="We are a small team in Dar es Salaam. We read every message and we will reply personally."
-      image={UNSPLASH_IMAGES.community2}
+      subtitle="We are a small team in Tanzania. We read every message and we will reply personally."
+      image={UNSPLASH_IMAGES.wamasai}
       imageAlt="Our team in Tanzania"
       minHeight="min-h-[45vh]"
     />

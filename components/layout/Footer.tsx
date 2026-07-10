@@ -101,7 +101,7 @@ export default function Footer() {
       <div className="border-t border-white/8">
         <div className="container-site py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-white/35">© {year} {SITE_NAME}. All rights reserved.</p>
-          <p className="text-xs text-white/25 flex items-center gap-1">Made with <Heart size={10} className="fill-gold-400 text-gold-400" /> in Tanzania</p>
+          <p className="text-xs text-white/25 flex items-center gap-1">Designed by Elia Kitadu</p>
         </div>
       </div>
     </footer>
