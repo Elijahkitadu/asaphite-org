@@ -168,9 +168,8 @@ export function FoundationTimeline() {
 // ─── Leadership ───────────────────────────────────────
 
 const TEAM = [
-  { name: 'Add Your Name', role: 'Founder',    bio: 'Update this with your real team details.', image: UNSPLASH_IMAGES.team1 },
-  { name: 'Add Your Name', role: 'Co-founder', bio: 'Update this with your real team details.', image: UNSPLASH_IMAGES.team2 },
-  { name: 'Add Your Name', role: 'Filmmaker',  bio: 'Update this with your real team details.', image: UNSPLASH_IMAGES.team3 },
+  { name: 'Asaph Bimila', role: 'Founder and CEO',    bio: 'Update this with your real team details.', image: UNSPLASH_IMAGES.joshua },
+  { name: 'Add Your Name', role: 'Filmmaker',  bio: 'Update this with your real team details.', image: UNSPLASH_IMAGES.angel },
 ]
 
 export function LeadershipSection() {
@@ -180,7 +179,7 @@ export function LeadershipSection() {
         <div className="flex flex-col items-center gap-12">
           <SectionTitle
             eyebrow="The Team"
-            title="The people behind the camera"
+            title="The team behind the camera"
             subtitle="A small team with a shared passion for Tanzania and storytelling."
             id="team-heading"
           />

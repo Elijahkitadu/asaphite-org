@@ -108,4 +108,6 @@ export const UNSPLASH_IMAGES = {
   about:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.36%20(23).jpeg',
   impact:        'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.45.10%20(3).jpeg',
   wamasai:       'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.37.jpeg',
+  joshua:        'https://6a4fb165ae4883bf378c6a69.imgix.net/Screenshot_20250415-063915_1.jpg',
+  angel:         'https://6a4fb165ae4883bf378c6a69.imgix.net/IMG-20260203-WA0134.jpg',
 }
