@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', images: ['/og-image.jpg'] },
   manifest: '/site.webmanifest',
     verification: {
-    google: 'google-site-verification=7KEMfQew8rdD1-Yxy7zIhndTpmYiPjn_OGdfoCMiey8', // paste your code here
+    google: '7KEMfQew8rdD1-Yxy7zIhndTpmYiPjn_OGdfoCMiey8', // paste your code here
   },
 }
 
