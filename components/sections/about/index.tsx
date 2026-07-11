@@ -194,6 +194,35 @@ const TEAM = [
     image: ''
   },
 ]
+// ─── Leadership ───────────────────────────────────────
+
+const BOARD = [
+  {
+    name: 'Asaph Bimila',
+    role: 'Chairperson & Founder',
+    image: UNSPLASH_IMAGES.joshua,
+  },
+  {
+    name: 'Akubu Paulo',
+    role: 'Excutive Secretary',
+    image: ''
+  },
+  {
+    name: 'Yufemia Marco',
+    role: 'Accountant',
+    image: ''
+  },
+  {
+    name: 'Joshua Israel',
+    role: 'Member',
+    image: ''
+  },
+  {
+    name: 'Josephina Lugegela',
+    role: 'Member',
+    image: ''
+  },  
+]
 
 export function LeadershipSection() {
   return (
@@ -237,9 +266,46 @@ export function LeadershipSection() {
               </motion.div>
             ))}
           </motion.div>
+
+          <div className="w-full max-w-6xl mx-auto flex flex-col items-center gap-8">
+            <SectionTitle
+              eyebrow="Board"
+              title="The board behind the mission"
+              subtitle="The leaders guiding our work with care, accountability, and long-term vision."
+              id="board-heading"
+            />
+
+            <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewport}
+              className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 w-full">
+              {BOARD.map((member, i) => (
+                <motion.div
+                  key={member.name}
+                  variants={fadeInUp}
+                  custom={i}
+                  className="flex flex-col overflow-hidden rounded-3xl border border-gray-100 bg-gray-50 p-6 shadow-sm"
+                >
+                  <div className="relative mx-auto mb-6 h-24 w-24 overflow-hidden rounded-full ring-4 ring-gray-200">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-cover grayscale"
+                      sizes="96px"
+                    />
+                  </div>
+
+                  <div className="flex flex-col items-center text-center gap-2">
+                    <h3 className="font-heading font-semibold text-navy-800 text-lg">{member.name}</h3>
+                    <p className="text-gold-400 text-xs font-semibold font-heading uppercase tracking-[0.2em]">{member.role}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>
+    
   )
 }
 
