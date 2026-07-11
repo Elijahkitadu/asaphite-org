@@ -7,6 +7,7 @@ import PageHero from '@/components/shared/PageHero'
 import SectionTitle from '@/components/ui/SectionTitle'
 import { staggerContainer, fadeInUp, fadeInRight, viewport, scaleIn } from '@/lib/animations'
 import { UNSPLASH_IMAGES, CORE_VALUES, FOUNDATION_TIMELINE } from '@/lib/constants'
+import image from 'next/image'
 
 // ─── Hero ─────────────────────────────────────────────
 
@@ -179,6 +180,18 @@ const TEAM = [
     role: 'Filmmaker & Community Liaison',
     bio: 'Coordinates fieldwork, interviews, and documentary planning with a strong focus on community trust.',
     image: UNSPLASH_IMAGES.angel,
+  },
+  {
+    name: 'Yufemia Marco',
+    role: 'Accountant',
+    bio: 'Responsible for managing all the finances, and controlling the the budget',
+    image: ''
+  },
+  {
+    name: 'Akubu Paulo',
+    role: 'Executive Secretary',
+    bio: 'Responsible to monitor all foundation activities',
+    image: ''
   },
 ]
 

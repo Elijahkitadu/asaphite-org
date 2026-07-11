@@ -66,11 +66,11 @@ const STORIES = [
   },
   {
     id: 'young-builders',
-    title: 'The Young Builders of Mwanza',
+    title: 'The Young Builders of Singida',
     category: 'community',
     location: 'Singida, Tanzania',
     readTime: 5,
-    excerpt: 'A group of young people in Mwanza decided not to wait for someone else to fix their neighbourhood. This is what they built.',
+    excerpt: 'A group of young people in Singida decided not to wait for someone else to fix their neighbourhood. This is what they built.',
     image: UNSPLASH_IMAGES.community1,
     featured: false,
     hasVideo: true,

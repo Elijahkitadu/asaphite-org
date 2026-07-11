@@ -123,7 +123,7 @@ const CHURCH_STORIES = [
   },
   {
     church: 'Kanisa la Upendo',
-    location: 'Mwanza, Tanzania',
+    location: 'Singida, Tanzania',
     quote: 'We are a small church. We cannot give much money. But we can open our doors, share their films, and pray. That is what partnership looks like for us.',
     person: 'Pastor Thomas',
     role: 'Lead Pastor',
