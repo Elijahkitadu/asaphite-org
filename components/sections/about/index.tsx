@@ -194,17 +194,17 @@ const BOARD = [
   {
     name: 'Akubu Paulo',
     role: 'Excutive Secretary',
-    image: ''
+    image: UNSPLASH_IMAGES.akubu,
   },
   {
     name: 'Yufemia Marco',
     role: 'Accountant',
-    image: ''
+    image: '',
   },
   {
     name: 'Joshua Israel',
     role: 'Member',
-    image: ''
+    image: UNSPLASH_IMAGES.joshua2,
   },
   {
     name: 'Josephina Lugegela',

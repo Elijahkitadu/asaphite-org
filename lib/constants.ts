@@ -110,4 +110,6 @@ export const UNSPLASH_IMAGES = {
   wamasai:       'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-07%20at%2018.21.37.jpeg',
   joshua:        'https://6a4fb165ae4883bf378c6a69.imgix.net/Screenshot_20250415-063915_1.jpg',
   angel:         'https://6a4fb165ae4883bf378c6a69.imgix.net/IMG-20260203-WA0134.jpg',
+  akubu:         'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-11%20at%2014.13.35.jpeg',
+  joshua2:       'https://6a4fb165ae4883bf378c6a69.imgix.net/WhatsApp%20Image%202026-07-11%20at%2020.15.16.jpeg',
 }
