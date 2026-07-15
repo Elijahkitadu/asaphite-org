@@ -60,6 +60,7 @@ export function ContactContent() {
       phone:   (form.elements.namedItem('c-phone')   as HTMLInputElement).value,
       subject: (form.elements.namedItem('c-subject') as HTMLInputElement).value,
       message: (form.elements.namedItem('c-message') as HTMLTextAreaElement).value,
+      website: (form.elements.namedItem('website')   as HTMLInputElement).value, // honeypot
       type:    inquiryType,
     }
 
@@ -161,6 +162,16 @@ export function ContactContent() {
                       ))}
                     </div>
                   </div>
+                  {/* Honeypot — hidden from humans, bots fill it in */}
+                  <input
+                    type="text"
+                    name="website"
+                    defaultValue=""
+                    tabIndex={-1}
+                    aria-hidden="true"
+                    style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0 }}
+                  />
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {[
                       { id: 'c-name',    label: 'Your name *',      placeholder: 'Amina Hassan',     type: 'text',  required: true  },

@@ -5,15 +5,64 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 const TO_EMAIL = process.env.CONTACT_EMAIL || 'info@theasaphitesfoundation.org'
 const FROM_EMAIL = 'noreply@theasaphitesfoundation.org'
 
+// Simple in-memory rate limiter — max 3 submissions per IP per 10 minutes
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now()
+  const entry = rateLimitMap.get(ip)
+
+  if (!entry || now > entry.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + 10 * 60 * 1000 })
+    return false
+  }
+
+  if (entry.count >= 3) return true
+
+  entry.count++
+  return false
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json()
-    const { name, email, phone, subject, message, type } = body
+    const { name, email, phone, subject, message, type, website } = body
+
+    // Honeypot — bots fill hidden fields, humans don't
+    if (website) {
+      return NextResponse.json({ success: true }) // pretend it worked
+    }
+
+    // Rate limiting by IP
+    const ip = req.headers.get('x-forwarded-for')?.split(',')[0] ?? 'unknown'
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: 'Too many submissions. Please wait a few minutes.' },
+        { status: 429 }
+      )
+    }
 
     // Basic validation
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: 'Name, email and message are required.' },
+        { status: 400 }
+      )
+    }
+
+    // Email must look valid
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    if (!emailRegex.test(email)) {
+      return NextResponse.json(
+        { error: 'Please enter a valid email address.' },
+        { status: 400 }
+      )
+    }
+
+    // Message must be at least 10 characters
+    if (message.trim().length < 10) {
+      return NextResponse.json(
+        { error: 'Message is too short.' },
         { status: 400 }
       )
     }
