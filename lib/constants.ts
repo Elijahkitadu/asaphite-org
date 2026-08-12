@@ -7,10 +7,7 @@ export const SITE_URL         = process.env.NEXT_PUBLIC_SITE_URL || 'https://the
 export const SITE_EMAIL       = 'info@theasaphitesfoundation.org'
 export const SITE_PHONE       = '+255 767 069 313'
 export const SITE_WHATSAPP    = '+255767069313'
-export const SITE_LOCATION    = `Kwa mwanajeshi street, nearby Mashariki street,
-Arumeru District - Arusha Region, 
-P.O BOX 3013, 
-Tanzania.`
+export const SITE_LOCATION    = `Kwa mwanajeshi street, nearby Mashariki street,\nArumeuru District - Arusha Region,\nP.O BOX 3013,\nTanzania.`
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home',            href: '/'          },
