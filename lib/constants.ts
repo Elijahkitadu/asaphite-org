@@ -8,8 +8,9 @@ export const SITE_EMAIL       = 'info@theasaphitesfoundation.org'
 export const SITE_PHONE       = '+255 767 069 313'
 export const SITE_WHATSAPP    = '+255767069313'
 export const SITE_LOCATION    = `Kwa mwanajeshi street, nearby Mashariki street,
-Arumeru District,
-Arusha Region, P.O BOX 3013, Tanzania`
+Arumeru District - Arusha Region, 
+P.O BOX 3013, 
+Tanzania.`
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home',            href: '/'          },
