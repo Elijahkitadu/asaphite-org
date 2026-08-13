@@ -113,8 +113,9 @@ export const UNSPLASH_IMAGES = {
   about:         'images/WhatsApp%20Image%202026-07-07%20at%2018.21.36%20(23).jpeg',
   impact:        'images/WhatsApp%20Image%202026-07-07%20at%2018.45.10%20(3).jpeg',
   wamasai:       'images/WhatsApp%20Image%202026-07-07%20at%2018.21.37.jpeg',
-  joshua:        'images/joshua.jpg',
+  joshua:        'images/bimila.jpg',
   angel:         'images/angel.jpg',
   akubu:         'images/akubu.jpeg',
   joshua2:       'images/joshua.jpeg',
+  josephina:     'images/josephina.jpeg'
 }
