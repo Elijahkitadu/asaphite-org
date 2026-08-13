@@ -67,6 +67,11 @@ export const FOUNDATION_TIMELINE = [
   { year: '2024', title: 'First Stories',  description: 'We produced our first three short documentary films, visiting communities in Singida and Arusha. Small start, real impact.' },
   { year: '2024', title: 'First Partners', description: 'Three local churches joined us as community partners, helping us identify real needs and connect with families willing to share their stories.' },
   { year: '2025', title: 'Growing',        description: 'We are now building our donor base, expanding our church network, and preparing for our first fundraising campaign. This is the beginning.' },
+  { 
+  year: '2026', 
+  title: 'Officially Registered', 
+  description: 'The Asaphites Foundation is now an officially registered NGO in Tanzania. This marks the beginning of a new chapter — with a legal foundation to grow, raise funds, and serve communities with full credibility.' 
+},
 ]
 
 export const PARTNERSHIP_TIERS = [
@@ -113,6 +118,7 @@ export const UNSPLASH_IMAGES = {
   about:         'images/WhatsApp%20Image%202026-07-07%20at%2018.21.36%20(23).jpeg',
   impact:        'images/WhatsApp%20Image%202026-07-07%20at%2018.45.10%20(3).jpeg',
   wamasai:       'images/WhatsApp%20Image%202026-07-07%20at%2018.21.37.jpeg',
+  filmmaking:    'images/film.jpeg',
   joshua:        'images/bimila.jpg',
   angel:         'images/angel.jpg',
   akubu:         'images/akubu.jpeg',

@@ -23,7 +23,7 @@ const POSTS = [
     id: 'first-film-what-we-learned',
     title: 'What We Learned Making Our First Film',
     excerpt: 'Nobody warned us how hard it would be to ask someone to share their suffering on camera. And nobody warned us how willing people would be to do it, if you treat them with respect.',
-    image: UNSPLASH_IMAGES.community1,
+    image: UNSPLASH_IMAGES.filmmaking,
     publishedAt: '2024-05-22',
     readTime: 7,
     featured: false,
