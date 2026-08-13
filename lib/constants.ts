@@ -117,5 +117,6 @@ export const UNSPLASH_IMAGES = {
   angel:         'images/angel.jpg',
   akubu:         'images/akubu.jpeg',
   joshua2:       'images/joshua.jpeg',
-  josephina:     'images/josephina.jpeg'
+  josephina:     'images/josephina.jpeg',
+  yufemia:       'images/yufemia.jpeg',
 }
