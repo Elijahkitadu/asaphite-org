@@ -113,8 +113,8 @@ export const UNSPLASH_IMAGES = {
   about:         '/images/WhatsApp%20Image%202026-07-07%20at%2018.21.36%20(23).jpeg',
   impact:        '/images/WhatsApp%20Image%202026-07-07%20at%2018.45.10%20(3).jpeg',
   wamasai:       '/images/WhatsApp%20Image%202026-07-07%20at%2018.21.37.jpeg',
-  joshua:        '/images/Screenshot_20250415-063915_1.jpg',
-  angel:         '/public/images/IMG-20260203-WA0134.jpg',
+  joshua:        '/images/joshua.jpg',
+  angel:         'images/angel.jpg',
   akubu:         '/images/akubu.jpeg',
   joshua2:       '/images/joshua.jpeg',
 }
