@@ -23,7 +23,7 @@ export default function HomePage() {
       <CTASection
         eyebrow="Get Involved"
         title="Want to support our work?"
-        subtitle="We are currently in the registration process. If you would like to support our activities, partner with us, or simply learn more — we would love to hear from you."
+        subtitle="We are officially registered as an NGO in Tanzania. If you would like to support our activities, partner with us, or simply learn more — we would love to hear from you."
         links={[
           { label: 'Get in Touch',    href: '/contact', variant: 'primary' },
           { label: 'Partner With Us', href: '/church',  variant: 'outline' },

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import {
   Mail, Phone, MapPin, MessageCircle,
   Facebook, Instagram, Twitter, Youtube,
-  Send, CheckCircle2, ArrowRight, AlertCircle
+  Send, CheckCircle2, ArrowRight, AlertCircle, ShieldCheck
 } from 'lucide-react'
 import PageHero from '@/components/shared/PageHero'
 import SectionTitle from '@/components/ui/SectionTitle'
@@ -107,9 +107,15 @@ export function ContactContent() {
               ))}
             </motion.div>
             <motion.div variants={fadeInUp} className="h-px bg-gray-100" />
-            <motion.div variants={fadeInUp} className="p-4 rounded-xl bg-gold-400/8 border border-gold-400/20">
+            <motion.div variants={fadeInUp} className="p-4 rounded-xl bg-hope-500/10 border border-hope-500/25">
+              <div className="flex items-center gap-2 mb-2">
+                <ShieldCheck size={16} className="text-hope-400 shrink-0" />
+                <span className="text-xs font-bold text-hope-400 uppercase tracking-wider font-heading">
+                  Officially Registered NGO
+                </span>
+              </div>
               <p className="text-navy-800 text-sm leading-relaxed">
-                <span className="font-semibold">Want to support our work?</span> We are currently in the registration process. Get in touch directly and we will guide you.
+                Reg. No. <span className="font-semibold">00NGO/R/10116</span> · Tanzania. We are fully registered and ready to receive support. Get in touch and we will guide you.
               </p>
             </motion.div>
             <motion.div variants={staggerContainer} className="flex flex-col gap-4">
