@@ -199,7 +199,7 @@ const BOARD = [
   {
     name: 'Yufemia Marco',
     role: 'Accountant',
-    image: '',
+    image: 'UNSPLASH_IMAGES.yufemia',
   },
   {
     name: 'Joshua Israel',
@@ -209,7 +209,7 @@ const BOARD = [
   {
     name: 'Josephina Lugegela',
     role: 'Member',
-    image: ''
+    image: 'UNSPLASH_IMAGES.josephina',
   },  
 ]
 
