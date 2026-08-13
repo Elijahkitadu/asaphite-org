@@ -68,7 +68,7 @@ export function MissionVision() {
 
           <motion.div variants={fadeInRight} initial="hidden" whileInView="visible" viewport={viewport} className="relative hidden lg:block">
             <div className="relative aspect-square rounded-2xl overflow-hidden shadow-navy">
-              <Image src={UNSPLASH_IMAGES.community1} alt="Community members we work with" fill className="object-cover" sizes="50vw" />
+              <Image src={UNSPLASH_IMAGES.actionp1} alt="Community members we work with" fill className="object-cover" sizes="50vw" />
             </div>
             <motion.div
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={viewport}
